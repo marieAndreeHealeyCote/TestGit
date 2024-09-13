@@ -1,0 +1,45 @@
+body {
+    background-color: cornflowerblue;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 20em;
+    background-color: aquamarine;
+}
+
+header {
+    width: 80%;
+    margin: auto;
+}
+
+nav {
+    background-color: blueviolet;
+    border: 1px solid black;
+    padding: 0;
+    margin: 0 ;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav ul {
+    padding-left: 0;
+}
+
+nav .niveau-1 {
+    display: flex;
+    justify-content: center;
+}
+
+nav .niveau-1>li {
+    display: flex;
+    margin: 0 30px;
+}
+
+nav .niveau-2>li {
+    background-color: blueviolet;
+    display: none;
+}
