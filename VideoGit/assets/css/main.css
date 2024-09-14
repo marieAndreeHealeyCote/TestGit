@@ -1,3 +1,4 @@
+/*general.css*/
 body {
     background-color: cornflowerblue;
 }
@@ -5,7 +6,8 @@ body {
 main {
     width: 80%;
     margin: auto;
-    padding-bottom: 20em;
+    padding: 20px;
+    box-sizing: border-box;
     background-color: aquamarine;
 }
 
@@ -21,6 +23,14 @@ nav {
     margin: 0 ;
 }
 
+
+/*img.css*/
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+/*nav.css*/
 nav li {
     list-style-type: none;
 }
